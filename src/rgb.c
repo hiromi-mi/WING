@@ -5,7 +5,7 @@
 #include <GL/glut.h>
 #include <GL/gl.h>
 */
-#include <GLUT/glut.h>
+#include <GL/glut.h>
 
 #include "rgb.h"
 

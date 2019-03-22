@@ -39,7 +39,7 @@ static char rcsid[] = "$Header: /user/masui/WING/wing/RCS/showGuide.c,v 1.19 199
 #include <GL/glut.h>
 #include <GL/gl.h>
 */
-#include <GLUT/glut.h>
+#include <GL/glut.h>
 
 #include <stdio.h>
 #include "rgb.h"

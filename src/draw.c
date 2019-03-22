@@ -9,7 +9,7 @@ static char rcsid[] = "$Header: /usr/people/masui/WING/wing/RCS/draw.c,v 1.6 199
 #include	<GL/gl.h>
 #include	<GL/glu.h>
 */
-#include	<GLUT/glut.h>
+#include	<GL/glut.h>
 
 #include	<stdio.h>
 #include	<string.h>

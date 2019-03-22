@@ -16,7 +16,7 @@ static char rcsid[] = "$Header: /user/masui/WING/wing/RCS/index.c,v 1.21 1995/02
 #include <GL/glut.h>
 #include <GL/gl.h>
 */
-#include <GLUT/glut.h>
+#include <GL/glut.h>
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,3 +1,7 @@
+# Makefile for Linux/X11-based Environment
+
+CC =	gcc
+
 COBJ =	./main.o \
 	./calc.o \
 	./calcWeight.o \
@@ -5,9 +9,7 @@ COBJ =	./main.o \
 	./draw.o \
 	./geom.o \
 	./index.o \
-	./jogl.o \
 	./jstring.o \
-	./main.o \
 	./mapData.o \
 	./mapitem.o \
 	./move.o \
@@ -15,7 +17,8 @@ COBJ =	./main.o \
 	./rgb.o \
 	./showGuide.o \
 	./sub.o \
-	./toc.o
+	./toc.o \
+	./joglIntel.o
 
 INC =	./calc.h \
 	./calcWeight.h \
@@ -37,10 +40,11 @@ INC =	./calc.h \
 	./winpos.h
 
 all: $(COBJ)
-	CC -g -o wing $(COBJ) libglut.a -lGLU -lGL -lXmu -lX11 -lm
+	$(CC) -g -o wing $(COBJ) -lglut -lGLU -lGL -lXmu -lX11 -lm
 
 $(COBJ): $(INC)
+	$(CC) -c -g $@ -DLINUX
 
 .C.o:
-	CC -c -g $<
+	$(CC) -c -g $< -DLINUX
 

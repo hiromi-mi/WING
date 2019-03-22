@@ -10,7 +10,7 @@
 /*
 #include	<GL/gl.h>
 */
-#include	<GLUT/glut.h>
+#include	<GL/glut.h>
 
 #ifndef PI
 #define	PI	3.1415926535897932

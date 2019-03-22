@@ -14,7 +14,7 @@ static char rcsid[] = "$Header: /usr/people/masui/WING/wing/RCS/mapitem.c,v 1.4 
 #include	<GL/glut.h>
 #include	<GL/gl.h>
 */
-#include	<GLUT/glut.h>
+#include	<GL/glut.h>
 
 #include	<stdio.h>
 #include	<math.h>

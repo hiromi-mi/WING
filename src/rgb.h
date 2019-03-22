@@ -8,7 +8,7 @@
 /*
 #include <GL/gl.h>
 */
-#include	<GLUT/glut.h>
+#include	<GL/glut.h>
 
 typedef struct _RGBImageRec {
     GLint sizeX, sizeY;

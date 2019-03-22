@@ -19,7 +19,11 @@ static char rcsid[] = "$Header: /user/masui/WING/wing/RCS/main.c,v 1.27 1995/02/
 #include	<GL/glut.h>
 #include	<GL/gl.h>
 */
-#include	<GLUT/glut.h>
+#ifdef LINUX
+#include	<GL/glut.h>
+#else
+#include        <GLUT/glut.h>
+#endif
 
 #include	<sys/types.h>
 #include	<sys/mman.h>

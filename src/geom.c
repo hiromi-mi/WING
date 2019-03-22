@@ -14,7 +14,7 @@ static char rcsid[] = "$Header: /user/masui/WING/wing/RCS/geom.c,v 1.5 1995/02/0
 #include	<GL/glut.h>
 #include	<GL/gl.h>
 */
-#include	<GLUT/glut.h>
+#include	<GL/glut.h>
 
 #include	<stdio.h>
 #include	"geom.h"

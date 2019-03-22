@@ -17,7 +17,7 @@
 #include	<GL/gl.h>
 #include	<GL/glu.h>
 */
-#include	<GLUT/glut.h>
+#include	<GL/glut.h>
 
 #include	<stdio.h>
 #include	<stdlib.h>
