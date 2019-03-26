@@ -12,6 +12,7 @@
 #define	_INDEX_H_
 
 #include "dataentry.h"
+#include "main.h"
 
 #ifndef PINDEX
 #define PINDEX "data/pindex"

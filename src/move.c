@@ -14,7 +14,6 @@ static char rcsid[] = "$Header: /user/masui/WING/wing/RCS/move.c,v 1.5 1995/01/3
 #include	<GL/glut.h>
 #include	<GL/gl.h>
 */
-#include	<GL/glut.h>
 
 #include	<stdio.h>
 #include	<math.h>

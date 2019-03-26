@@ -7,10 +7,7 @@
 #ifndef CALC_H
 #define	CALC_H
 
-/*
-#include	<GL/gl.h>
-*/
-#include	<GL/glut.h>
+#include	"main.h"
 
 #ifndef PI
 #define	PI	3.1415926535897932

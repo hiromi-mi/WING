@@ -1,6 +1,7 @@
 # Makefile for Linux/X11-based Environment
 
 CC =	gcc
+CFLAGS= -DLINUX -c -g
 
 COBJ =	./main.o \
 	./calc.o \
@@ -40,10 +41,9 @@ INC =	./calc.h \
 	./winpos.h
 
 all: $(COBJ)
-	$(CC) -g -o wing $(COBJ) -lglut -lGLU -lGL -lXmu -lX11 -lm
+	$(CC) -g -o wing -DLINUX $(COBJ) -lglut -lGLU -lGL -lXmu -lX11 -lm
 
 $(COBJ): $(INC)
-	$(CC) -c -g $@ -DLINUX
 
 .C.o:
 	$(CC) -c -g $< -DLINUX

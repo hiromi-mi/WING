@@ -17,7 +17,6 @@
 #include	<GL/gl.h>
 #include	<GL/glu.h>
 */
-#include	<GL/glut.h>
 
 #include	<stdio.h>
 #include	<stdlib.h>
@@ -25,6 +24,7 @@
 #include	<fcntl.h>
 #include	<sys/types.h>
 #include	<sys/stat.h>
+#include	"main.h"
 #include	"jogl.h"
 
 typedef struct {

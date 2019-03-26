@@ -14,7 +14,6 @@ static char rcsid[] = "$Header: /user/masui/WING/wing/RCS/mapData.c,v 1.3 1995/0
 #include	<GL/glut.h>
 #include	<GL/gl.h>
 */
-#include	<GL/glut.h>
 
 #include	<stdio.h>
 #include	<string.h>

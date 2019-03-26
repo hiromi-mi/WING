@@ -12,23 +12,17 @@
 */
 static char rcsid[] = "$Header: /user/masui/WING/wing/RCS/index.c,v 1.21 1995/02/03 15:31:03 masui Exp masui $";
 
-/*
-#include <GL/glut.h>
-#include <GL/gl.h>
-*/
-#include <GL/glut.h>
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
+#include "main.h"
 #include "index.h"
 #include "jstring.h"
 #include "jogl.h"
 #include "dataentry.h"
 #include "sub.h"
 #include "winpos.h"
-#include "main.h"
 #include "move.h"
 #include "calcWeight.h"
 #include "showGuide.h"

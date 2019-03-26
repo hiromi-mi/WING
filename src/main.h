@@ -6,12 +6,12 @@
 #ifndef MAIN_H
 #define	MAIN_H
 
-/*
+#ifdef LINUX
 #include	<GL/glut.h>
-#include	<GL/gl.h>
-#include	<GL/glu.h>
-*/
-#include	<GL/glut.h>
+#include        <GL/gl.h>
+#else
+#include        <GLUT/glut.h>
+#endif
 
 #include	"mapitem.h"
 

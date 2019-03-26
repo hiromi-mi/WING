@@ -22,9 +22,9 @@
 #include <GL/glut.h>
 #include <GL/gl.h>
 */
-#include <GL/glut.h>
 
 #include "jogl.h"
+#include "main.h"
 #include <stdio.h>
 #include "jstring.h"
 

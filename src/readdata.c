@@ -12,7 +12,6 @@
 */
 static char rcsid[] = "$Header: /user/masui/WING/wing/RCS/readdata.c,v 1.28 1995/02/03 10:23:36 masui Exp masui $";
 
-#include	<GL/glut.h>
 
 #include <stdio.h>
 #include <sys/types.h>
